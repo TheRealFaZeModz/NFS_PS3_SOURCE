@@ -1,6 +1,4 @@
 # NFS_PS3_SOURCE
-Need For Speed Hot Pursuit C++ Mod Menu (SPRX). 
-<br>
 Code for calling some of the native/lua functions in Need For Speed Hot Pursuit (2010/PS3).
 <br>
 <br>
