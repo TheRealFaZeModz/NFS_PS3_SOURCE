@@ -1,0 +1,51 @@
+//nfs
+open address = 0x10020000 // area in mem that we can use on any game to load sprx
+button address = 0x00F41B38 // address found using Joker/ NetCheat
+hookaddress = 0x10020000 // use this address on SCE debugger to set your Functions on the sprx
+
+Process for gettings arguements for funcs:
+1. it only calls the getArg function once: 1 arg in function
+2. although there could be other get arg functions for other variable types or something that II haven't documented yyet, the SetLocalPlayerScore function llooks like it's just the 1
+
+
+struct enum {
+	0x00192030 ResetNitrousAmount
+;}
+
+
+
+Hexadecimal
+Binary
+0
+0000
+1
+0001
+2
+0010
+3
+0011
+4
+0100
+5
+0101
+6
+0110
+7
+0111
+8
+1000
+9
+1001
+A
+1010
+B
+1011
+C
+1100
+D
+1101
+E
+1110
+F
+1111
+
